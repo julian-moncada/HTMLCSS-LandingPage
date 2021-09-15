@@ -84,7 +84,7 @@ section {
 
 .text-secondary {
   font-size: 30px;
-  color: #364147;
+  color: #faa541;
 }
 
 .text-primary {
@@ -93,8 +93,8 @@ section {
 }
 
 .btn {
-  cursor: default;
-  border: none;
+  cursor: grab;
+  border: 0;
   padding: 6px 12px 6px 12px;
   border-radius: 3px;
   line-height: 1.4;
