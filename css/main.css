@@ -190,9 +190,11 @@ section {
 
 .hero {
   background-image: url('../img/hero.jpg');
+  /* I was missing a correct declaration for the file location */
   height: 400px;
   background-size: cover;
   background-position: center center;
+  /*  I was only specifying center in one direction, not two */
   text-transform: uppercase;
 }
 
