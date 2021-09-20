@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-/***************************************/
+/************* LAYOUT STYLES *************/
 
 section {
   display: flex;
@@ -79,6 +79,8 @@ section {
   line-height: 1.4;
 }
 
+/************* OTHER STYLES *************/
+
 .text-light {
   font-size: 30px;
   color: #a0a0a0;
@@ -111,6 +113,8 @@ section {
   background-color: #364147;
   color: white;
 }
+
+/************* HEADER *************/
 
 .header-nav {
   border-bottom: 1px solid #a0a0a0;
@@ -180,4 +184,94 @@ section {
 .profile-pic img {
   max-width: 100%;
   border-radius: 100px;
+}
+
+/************* HERO Section *************/
+
+.hero {
+  height: 400px;
+  background-image: url(/img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  text-transform: uppercase;
+}
+
+.hero div {
+  position: relative;
+  left: -30px;
+}
+
+.hero div > h2 {
+  color: #faa541;
+}
+
+.hero div > h1, h2 {
+  font-size: 63px;
+  font-weight: 700;
+  line-height: 0.9;
+}
+
+.hero div > p {
+  margin: 0 0 10px;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/************* SALE Section *************/
+
+.banner {
+  width: 100%;
+  padding: 25px 0;
+  border-top: 1px solid #a0a0a0;
+  border-bottom: 1px solid #a0a0a0;
+  margin: 55px 15px;
+}
+
+.banner img {
+  width: 250px;
+}
+
+.banner-text {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.banner-text > div:last-child {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/************* CATEGORY Section *************/
+
+.category {
+  flex: 0 0 25%;
+  padding: 0 15px;
+}
+
+.category img {
+  width: 100%;
+}
+
+.category-text {
+  padding: 30px 0;
+  color: #364147;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.category-text > div {
+  font-size: 16px;
+  font-weight: 200;
+  color: #faa541;
+}
+
+.category-text h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
 }
